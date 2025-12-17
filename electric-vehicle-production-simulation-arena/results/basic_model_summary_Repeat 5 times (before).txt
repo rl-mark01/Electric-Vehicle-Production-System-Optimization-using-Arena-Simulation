@@ -1,0 +1,776 @@
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 1 of 5
+
+Project: Unnamed Project                                             Run execution date :12/ 3/2025
+Analyst: Eunseo                                                      Model revision date:12/ 3/2025
+
+"Replication ended at time      : 10080.0 Minutes (Monday, December 22, 2025, 17:40:02)"
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Material.VATime                             209.04     (Insuf)    31.810     284.68         52    
+Material.NVATime                            78.990     (Insuf)    37.377     133.10         52    
+Material.WaitTime                           3800.2     (Insuf)    93.381     7410.0         52    
+Material.TranTime                           .00000     (Insuf)    .00000     .00000         52    
+Material.OtherTime                          .45192     (Insuf)    .00000     .50000         52    
+Material.TotalTime                          4088.7     (Insuf)    410.00     7780.5         52    
+Process_Inspection.Queue.WaitingTime        983.56     (Insuf)    1.9338     2570.8         92    
+InnerHole_Drilling.Queue.WaitingTime        13.305     (Insuf)    .00000     96.742         71    
+Finishing2.Queue.WaitingTime                469.76     (Insuf)    .00000     1316.4        116    
+Finishing1.Queue.WaitingTime                835.79     (Insuf)    .00000     1333.8        124    
+Load.Queue.WaitingTime                      783.77     (Insuf)    33.518     1238.3         70    
+Packaging.Queue.WaitingTime                 10.182     (Insuf)    .00000     80.000         44    
+Machining_Input.Queue.WaitingTime           208.63     (Insuf)    .00000     620.45        139    
+HousingCover_Assemble.Queue.WaitingTime     592.81     (Insuf)    .00000     1370.0         53    
+Grinding.Queue.WaitingTime                  362.00     (Insuf)    .00000     1436.8        129    
+Tapping.Queue.WaitingTime                   18.875     (Insuf)    .00000     887.00         71    
+Final_Inspection.Queue.WaitingTime          207.69     (Insuf)    .00000     869.43         48    
+Controller_Assemble.Queue.WaitingTime       512.50     (Insuf)    .00000     1600.5         63    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Material.WIP                                51.235     (Insuf)    .00000     98.000     88.000    
+Input_Machine1.NumberBusy                   .20685     (Insuf)    .00000     1.0000     .00000    
+Input_Machine1.NumberScheduled              .33333     (Insuf)    .00000     1.0000     .00000    
+Input_Machine1.Utilization                  .20685     (Insuf)    .00000     1.0000     .00000    
+Loader1.NumberBusy                          .16066     (Insuf)    .00000     1.0000     .00000    
+Loader1.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     .00000    
+Loader1.Utilization                         .16066     (Insuf)    .00000     1.0000     .00000    
+Hole_Driller1.NumberBusy                    .14087     (Insuf)    .00000     1.0000     .00000    
+Hole_Driller1.NumberScheduled               .33333     (Insuf)    .00000     1.0000     .00000    
+Hole_Driller1.Utilization                   .14087     (Insuf)    .00000     1.0000     .00000    
+Final_Inspector1.NumberBusy                 .07143     (Insuf)    .00000     1.0000     .00000    
+Final_Inspector1.NumberScheduled            .33333     (Insuf)    .00000     1.0000     .00000    
+Final_Inspector1.Utilization                .07143     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine2_1.NumberBusy             .19147     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine2_1.NumberScheduled        .33333     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine2_1.Utilization            .19147     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine1_1.NumberBusy             .21967     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine1_1.NumberScheduled        .33333     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine1_1.Utilization            .21967     (Insuf)    .00000     1.0000     .00000    
+Tapper1.NumberBusy                          .07044     (Insuf)    .00000     1.0000     .00000    
+Tapper1.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     .00000    
+Tapper1.Utilization                         .07044     (Insuf)    .00000     1.0000     .00000    
+HousingCover_Assembler1.NumberBusy          .31548     (Insuf)    .00000     1.0000     .00000    
+HousingCover_Assembler1.NumberScheduled     .33333     (Insuf)    .00000     1.0000     .00000    
+HousingCover_Assembler1.Utilization         .31548     (Insuf)    .00000     1.0000     .00000    
+Packaging_Machine1.NumberBusy               .15278     (Insuf)    .00000     1.0000     .00000    
+Packaging_Machine1.NumberScheduled          .33333     (Insuf)    .00000     1.0000     .00000    
+Packaging_Machine1.Utilization              .15278     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine3.NumberBusy                .08075     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine3.NumberScheduled           .33333     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine3.Utilization               .08075     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Grinding_Machine2.NumberScheduled           .00000     (Insuf)    .00000     .00000     .00000    
+Grinding_Machine2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Grinding_Machine1.NumberBusy                .13178     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine1.NumberScheduled           .33333     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine1.Utilization               .13178     (Insuf)    .00000     1.0000     .00000    
+Process_Inspector1.NumberBusy               .25557     (Insuf)    .00000     1.0000     .00000    
+Process_Inspector1.NumberScheduled          .33333     (Insuf)    .00000     1.0000     .00000    
+Process_Inspector1.Utilization              .25557     (Insuf)    .00000     1.0000     .00000    
+Controller_Assembler1.NumberBusy            .31250     (Insuf)    .00000     1.0000     .00000    
+Controller_Assembler1.NumberScheduled       .33333     (Insuf)    .00000     1.0000     .00000    
+Controller_Assembler1.Utilization           .31250     (Insuf)    .00000     1.0000     .00000    
+Worker_Assemble.NumberBusy                  1.0634     (Insuf)    .00000     4.0000     .00000    
+Worker_Assemble.NumberScheduled             4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Worker_Assemble.Utilization                 .26587     (Insuf)    .00000     1.0000     .00000    
+Worker_Process.NumberBusy                   1.2467     (Insuf)    .00000     3.0000     .00000    
+Worker_Process.NumberScheduled              3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Worker_Process.Utilization                  .41559     (Insuf)    .00000     1.0000     .00000    
+Process_Inspection.Queue.NumberInQueue      10.187     (Insuf)    .00000     29.000     24.000    
+InnerHole_Drilling.Queue.NumberInQueue      .09372     (Insuf)    .00000     3.0000     .00000    
+Finishing2.Queue.NumberInQueue              5.6568     (Insuf)    .00000     20.000     8.0000    
+Finishing1.Queue.NumberInQueue              10.454     (Insuf)    .00000     21.000     6.0000    
+Load.Queue.NumberInQueue                    6.0470     (Insuf)    .00000     15.000     15.000    
+Packaging.Queue.NumberInQueue               .04445     (Insuf)    .00000     3.0000     .00000    
+Machining_Input.Queue.NumberInQueue         2.9662     (Insuf)    .00000     20.000     1.0000    
+HousingCover_Assemble.Queue.NumberInQueue   3.4071     (Insuf)    .00000     10.000     10.000    
+Grinding.Queue.NumberInQueue                5.1694     (Insuf)    .00000     21.000     11.000    
+Tapping.Queue.NumberInQueue                 .13295     (Insuf)    .00000     2.0000     .00000    
+Final_Inspection.Queue.NumberInQueue        1.0830     (Insuf)    .00000     5.0000     5.0000    
+Controller_Assemble.Queue.NumberInQueue     3.6794     (Insuf)    .00000     15.000     8.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Material.NumberIn                           140.00    
+Material.NumberOut                          52.000    
+Input_Machine1.NumberSeized                 139.00    
+Input_Machine1.ScheduledUtilization         .62054    
+Loader1.NumberSeized                        70.000    
+Loader1.ScheduledUtilization                .48199    
+Hole_Driller1.NumberSeized                  71.000    
+Hole_Driller1.ScheduledUtilization          .42262    
+Final_Inspector1.NumberSeized               48.000    
+Final_Inspector1.ScheduledUtilization       .21429    
+Finishing_Machine2_1.NumberSeized           116.00    
+Finishing_Machine2_1.ScheduledUtilization   .57441    
+Finishing_Machine1_1.NumberSeized           124.00    
+Finishing_Machine1_1.ScheduledUtilization   .65902    
+Tapper1.NumberSeized                        71.000    
+Tapper1.ScheduledUtilization                .21131    
+HousingCover_Assembler1.NumberSeized        53.000    
+HousingCover_Assembler1.ScheduledUtilizati  .94643    
+Packaging_Machine1.NumberSeized             44.000    
+Packaging_Machine1.ScheduledUtilization     .45833    
+Grinding_Machine3.NumberSeized              52.000    
+Grinding_Machine3.ScheduledUtilization      .24226    
+Grinding_Machine2.NumberSeized              .00000    
+Grinding_Machine2.ScheduledUtilization      .00000    
+Grinding_Machine1.NumberSeized              77.000    
+Grinding_Machine1.ScheduledUtilization      .39534    
+Process_Inspector1.NumberSeized             92.000    
+Process_Inspector1.ScheduledUtilization     .76672    
+Controller_Assembler1.NumberSeized          63.000    
+Controller_Assembler1.ScheduledUtilization  .93750    
+Worker_Assemble.NumberSeized                350.00    
+Worker_Assemble.ScheduledUtilization        .26587    
+Worker_Process.NumberSeized                 670.00    
+Worker_Process.ScheduledUtilization         .41559    
+System.NumberOut                            52.000    
+
+Beginning replication 2 of 5
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 2 of 5
+
+Project: Unnamed Project                                             Run execution date :12/ 3/2025
+Analyst: Eunseo                                                      Model revision date:12/ 3/2025
+
+"Replication ended at time      : 10080.0 Minutes (Monday, December 22, 2025, 17:40:02)"
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Material.VATime                             208.68     (Insuf)    40.610     242.18         55    
+Material.NVATime                            82.117     (Insuf)    37.830     133.00         55    
+Material.WaitTime                           3669.5     (Insuf)    137.60     5791.8         55    
+Material.TranTime                           .00000     (Insuf)    .00000     .00000         55    
+Material.OtherTime                          .45455     (Insuf)    .00000     .50000         55    
+Material.TotalTime                          3960.8     (Insuf)    449.81     6115.0         55    
+Process_Inspection.Queue.WaitingTime        593.79     (Insuf)    .00000     1681.8         81    
+InnerHole_Drilling.Queue.WaitingTime        255.72     (Insuf)    .00000     906.82         64    
+Finishing2.Queue.WaitingTime                470.49     (Insuf)    7.2212     1125.4        105    
+Finishing1.Queue.WaitingTime                708.38     (Insuf)    .00000     1563.1        111    
+Load.Queue.WaitingTime                      501.03     (Insuf)    .00000     1285.6         69    
+Packaging.Queue.WaitingTime                 82.291     (Insuf)    .00000     885.00         48    
+Machining_Input.Queue.WaitingTime           299.33     (Insuf)    .00000     558.00        140    
+HousingCover_Assemble.Queue.WaitingTime     597.28     (Insuf)    .00000     1492.3         56    
+Grinding.Queue.WaitingTime                  565.00     (Insuf)    .00000     1259.1        131    
+Tapping.Queue.WaitingTime                   57.461     (Insuf)    .00000     878.78         64    
+Final_Inspection.Queue.WaitingTime          359.70     (Insuf)    .00000     855.00         50    
+Controller_Assemble.Queue.WaitingTime       388.61     (Insuf)    .00000     1378.1         64    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Material.WIP                                49.486     (Insuf)    .00000     94.000     85.000    
+Input_Machine1.NumberBusy                   .20833     (Insuf)    .00000     1.0000     .00000    
+Input_Machine1.NumberScheduled              .33333     (Insuf)    .00000     1.0000     .00000    
+Input_Machine1.Utilization                  .20833     (Insuf)    .00000     1.0000     .00000    
+Loader1.NumberBusy                          .18185     (Insuf)    .00000     1.0000     .00000    
+Loader1.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     .00000    
+Loader1.Utilization                         .18185     (Insuf)    .00000     1.0000     .00000    
+Hole_Driller1.NumberBusy                    .12698     (Insuf)    .00000     1.0000     .00000    
+Hole_Driller1.NumberScheduled               .33333     (Insuf)    .00000     1.0000     .00000    
+Hole_Driller1.Utilization                   .12698     (Insuf)    .00000     1.0000     .00000    
+Final_Inspector1.NumberBusy                 .07440     (Insuf)    .00000     1.0000     .00000    
+Final_Inspector1.NumberScheduled            .33333     (Insuf)    .00000     1.0000     .00000    
+Final_Inspector1.Utilization                .07440     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine2_1.NumberBusy             .17204     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine2_1.NumberScheduled        .33333     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine2_1.Utilization            .17204     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine1_1.NumberBusy             .19096     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine1_1.NumberScheduled        .33333     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine1_1.Utilization            .19096     (Insuf)    .00000     1.0000     .00000    
+Tapper1.NumberBusy                          .06349     (Insuf)    .00000     1.0000     .00000    
+Tapper1.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     .00000    
+Tapper1.Utilization                         .06349     (Insuf)    .00000     1.0000     .00000    
+HousingCover_Assembler1.NumberBusy          .32738     (Insuf)    .00000     1.0000     1.0000    
+HousingCover_Assembler1.NumberScheduled     .30952     (Insuf)    .00000     1.0000     1.0000    
+HousingCover_Assembler1.Utilization         .32738     (Insuf)    .00000     1.0000     1.0000    
+Packaging_Machine1.NumberBusy               .16667     (Insuf)    .00000     1.0000     .00000    
+Packaging_Machine1.NumberScheduled          .33333     (Insuf)    .00000     1.0000     .00000    
+Packaging_Machine1.Utilization              .16667     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine3.NumberBusy                .07684     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine3.NumberScheduled           .33333     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine3.Utilization               .07684     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Grinding_Machine2.NumberScheduled           .00000     (Insuf)    .00000     .00000     .00000    
+Grinding_Machine2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Grinding_Machine1.NumberBusy                .13099     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine1.NumberScheduled           .33333     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine1.Utilization               .13099     (Insuf)    .00000     1.0000     .00000    
+Process_Inspector1.NumberBusy               .24647     (Insuf)    .00000     1.0000     .00000    
+Process_Inspector1.NumberScheduled          .33333     (Insuf)    .00000     1.0000     .00000    
+Process_Inspector1.Utilization              .24647     (Insuf)    .00000     1.0000     .00000    
+Controller_Assembler1.NumberBusy            .31746     (Insuf)    .00000     1.0000     .00000    
+Controller_Assembler1.NumberScheduled       .33333     (Insuf)    .00000     1.0000     .00000    
+Controller_Assembler1.Utilization           .31746     (Insuf)    .00000     1.0000     .00000    
+Worker_Assemble.NumberBusy                  1.0763     (Insuf)    .00000     4.0000     1.0000    
+Worker_Assemble.NumberScheduled             4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Worker_Assemble.Utilization                 .26910     (Insuf)    .00000     1.0000     .25000    
+Worker_Process.NumberBusy                   1.2074     (Insuf)    .00000     3.0000     .00000    
+Worker_Process.NumberScheduled              3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Worker_Process.Utilization                  .40249     (Insuf)    .00000     1.0000     .00000    
+Process_Inspection.Queue.NumberInQueue      6.0596     (Insuf)    .00000     26.000     24.000    
+InnerHole_Drilling.Queue.NumberInQueue      1.7313     (Insuf)    .00000     5.0000     5.0000    
+Finishing2.Queue.NumberInQueue              5.0903     (Insuf)    .00000     10.000     6.0000    
+Finishing1.Queue.NumberInQueue              9.9827     (Insuf)    .00000     36.000     20.000    
+Load.Queue.NumberInQueue                    3.6614     (Insuf)    .00000     10.000     7.0000    
+Packaging.Queue.NumberInQueue               .39187     (Insuf)    .00000     4.0000     .00000    
+Machining_Input.Queue.NumberInQueue         4.1575     (Insuf)    .00000     20.000     .00000    
+HousingCover_Assemble.Queue.NumberInQueue   3.5859     (Insuf)    .00000     10.000     8.0000    
+Grinding.Queue.NumberInQueue                7.8388     (Insuf)    .00000     24.000     9.0000    
+Tapping.Queue.NumberInQueue                 .36484     (Insuf)    .00000     2.0000     .00000    
+Final_Inspection.Queue.NumberInQueue        1.8675     (Insuf)    .00000     8.0000     5.0000    
+Controller_Assemble.Queue.NumberInQueue     2.4673     (Insuf)    .00000     10.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Material.NumberIn                           140.00    
+Material.NumberOut                          55.000    
+Input_Machine1.NumberSeized                 140.00    
+Input_Machine1.ScheduledUtilization         .62500    
+Loader1.NumberSeized                        69.000    
+Loader1.ScheduledUtilization                .54554    
+Hole_Driller1.NumberSeized                  64.000    
+Hole_Driller1.ScheduledUtilization          .38095    
+Final_Inspector1.NumberSeized               50.000    
+Final_Inspector1.ScheduledUtilization       .22321    
+Finishing_Machine2_1.NumberSeized           105.00    
+Finishing_Machine2_1.ScheduledUtilization   .51612    
+Finishing_Machine1_1.NumberSeized           111.00    
+Finishing_Machine1_1.ScheduledUtilization   .57287    
+Tapper1.NumberSeized                        64.000    
+Tapper1.ScheduledUtilization                .19048    
+HousingCover_Assembler1.NumberSeized        56.000    
+HousingCover_Assembler1.ScheduledUtilizati  1.0576    
+Packaging_Machine1.NumberSeized             48.000    
+Packaging_Machine1.ScheduledUtilization     .50000    
+Grinding_Machine3.NumberSeized              47.000    
+Grinding_Machine3.ScheduledUtilization      .23052    
+Grinding_Machine2.NumberSeized              .00000    
+Grinding_Machine2.ScheduledUtilization      .00000    
+Grinding_Machine1.NumberSeized              84.000    
+Grinding_Machine1.ScheduledUtilization      .39297    
+Process_Inspector1.NumberSeized             81.000    
+Process_Inspector1.ScheduledUtilization     .73941    
+Controller_Assembler1.NumberSeized          64.000    
+Controller_Assembler1.ScheduledUtilization  .95238    
+Worker_Assemble.NumberSeized                346.00    
+Worker_Assemble.ScheduledUtilization        .26910    
+Worker_Process.NumberSeized                 637.00    
+Worker_Process.ScheduledUtilization         .40249    
+System.NumberOut                            55.000    
+
+Beginning replication 3 of 5
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 3 of 5
+
+Project: Unnamed Project                                             Run execution date :12/ 3/2025
+Analyst: Eunseo                                                      Model revision date:12/ 3/2025
+
+"Replication ended at time      : 10080.0 Minutes (Monday, December 22, 2025, 17:40:02)"
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Material.VATime                             208.98     (Insuf)    37.047     288.39         54    
+Material.NVATime                            78.238     (Insuf)    26.332     109.72         54    
+Material.WaitTime                           3585.0     (Insuf)    86.629     6028.8         54    
+Material.TranTime                           .00000     (Insuf)    .00000     .00000         54    
+Material.OtherTime                          .45370     (Insuf)    .00000     .50000         54    
+Material.TotalTime                          3872.7     (Insuf)    375.37     6320.0         54    
+Process_Inspection.Queue.WaitingTime        737.66     (Insuf)    8.2434     1581.8         97    
+InnerHole_Drilling.Queue.WaitingTime        214.51     (Insuf)    .00000     908.55         71    
+Finishing2.Queue.WaitingTime                700.63     (Insuf)    .00000     1244.5        104    
+Finishing1.Queue.WaitingTime                461.42     (Insuf)    .00000     1361.7        120    
+Load.Queue.WaitingTime                      621.43     (Insuf)    27.035     1227.9         78    
+Packaging.Queue.WaitingTime                 15.539     (Insuf)    .00000     105.01         47    
+Machining_Input.Queue.WaitingTime           265.00     (Insuf)    .00000     1175.5        141    
+HousingCover_Assemble.Queue.WaitingTime     458.42     (Insuf)    .00000     1384.8         56    
+Grinding.Queue.WaitingTime                  516.18     (Insuf)    .00000     1202.5        133    
+Tapping.Queue.WaitingTime                   26.643     (Insuf)    .00000     893.79         71    
+Final_Inspection.Queue.WaitingTime          308.21     (Insuf)    .00000     899.98         50    
+Controller_Assemble.Queue.WaitingTime       456.09     (Insuf)    .00000     1559.7         63    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Material.WIP                                49.568     (Insuf)    .00000     96.000     86.000    
+Input_Machine1.NumberBusy                   .20982     (Insuf)    .00000     1.0000     .00000    
+Input_Machine1.NumberScheduled              .33333     (Insuf)    .00000     1.0000     .00000    
+Input_Machine1.Utilization                  .20982     (Insuf)    .00000     1.0000     .00000    
+Loader1.NumberBusy                          .18528     (Insuf)    .00000     1.0000     .00000    
+Loader1.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     .00000    
+Loader1.Utilization                         .18528     (Insuf)    .00000     1.0000     .00000    
+Hole_Driller1.NumberBusy                    .14087     (Insuf)    .00000     1.0000     .00000    
+Hole_Driller1.NumberScheduled               .33333     (Insuf)    .00000     1.0000     .00000    
+Hole_Driller1.Utilization                   .14087     (Insuf)    .00000     1.0000     .00000    
+Final_Inspector1.NumberBusy                 .07440     (Insuf)    .00000     1.0000     .00000    
+Final_Inspector1.NumberScheduled            .33333     (Insuf)    .00000     1.0000     .00000    
+Final_Inspector1.Utilization                .07440     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine2_1.NumberBusy             .17463     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine2_1.NumberScheduled        .33333     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine2_1.Utilization            .17463     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine1_1.NumberBusy             .20002     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine1_1.NumberScheduled        .33333     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine1_1.Utilization            .20002     (Insuf)    .00000     1.0000     .00000    
+Tapper1.NumberBusy                          .07044     (Insuf)    .00000     1.0000     .00000    
+Tapper1.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     .00000    
+Tapper1.Utilization                         .07044     (Insuf)    .00000     1.0000     .00000    
+HousingCover_Assembler1.NumberBusy          .33036     (Insuf)    .00000     1.0000     1.0000    
+HousingCover_Assembler1.NumberScheduled     .33036     (Insuf)    .00000     1.0000     1.0000    
+HousingCover_Assembler1.Utilization         .33036     (Insuf)    .00000     1.0000     1.0000    
+Packaging_Machine1.NumberBusy               .16319     (Insuf)    .00000     1.0000     .00000    
+Packaging_Machine1.NumberScheduled          .33333     (Insuf)    .00000     1.0000     .00000    
+Packaging_Machine1.Utilization              .16319     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine3.NumberBusy                .06813     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine3.NumberScheduled           .33333     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine3.Utilization               .06813     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Grinding_Machine2.NumberScheduled           .00000     (Insuf)    .00000     .00000     .00000    
+Grinding_Machine2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Grinding_Machine1.NumberBusy                .14952     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine1.NumberScheduled           .33333     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine1.Utilization               .14952     (Insuf)    .00000     1.0000     .00000    
+Process_Inspector1.NumberBusy               .25368     (Insuf)    .00000     1.0000     .00000    
+Process_Inspector1.NumberScheduled          .33333     (Insuf)    .00000     1.0000     .00000    
+Process_Inspector1.Utilization              .25368     (Insuf)    .00000     1.0000     .00000    
+Controller_Assembler1.NumberBusy            .31250     (Insuf)    .00000     1.0000     .00000    
+Controller_Assembler1.NumberScheduled       .33333     (Insuf)    .00000     1.0000     .00000    
+Controller_Assembler1.Utilization           .31250     (Insuf)    .00000     1.0000     .00000    
+Worker_Assemble.NumberBusy                  1.0917     (Insuf)    .00000     4.0000     1.0000    
+Worker_Assemble.NumberScheduled             4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Worker_Assemble.Utilization                 .27294     (Insuf)    .00000     1.0000     .25000    
+Worker_Process.NumberBusy                   1.2410     (Insuf)    .00000     3.0000     .00000    
+Worker_Process.NumberScheduled              3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Worker_Process.Utilization                  .41370     (Insuf)    .00000     1.0000     .00000    
+Process_Inspection.Queue.NumberInQueue      7.5756     (Insuf)    .00000     26.000     7.0000    
+InnerHole_Drilling.Queue.NumberInQueue      1.6857     (Insuf)    .00000     7.0000     7.0000    
+Finishing2.Queue.NumberInQueue              7.8621     (Insuf)    .00000     20.000     16.000    
+Finishing1.Queue.NumberInQueue              6.1017     (Insuf)    .00000     25.000     14.000    
+Load.Queue.NumberInQueue                    5.0762     (Insuf)    .00000     11.000     11.000    
+Packaging.Queue.NumberInQueue               .07246     (Insuf)    .00000     4.0000     .00000    
+Machining_Input.Queue.NumberInQueue         3.7068     (Insuf)    .00000     21.000     .00000    
+HousingCover_Assemble.Queue.NumberInQueue   2.7589     (Insuf)    .00000     9.0000     8.0000    
+Grinding.Queue.NumberInQueue                7.2442     (Insuf)    .00000     18.000     9.0000    
+Tapping.Queue.NumberInQueue                 .18767     (Insuf)    .00000     1.0000     .00000    
+Final_Inspection.Queue.NumberInQueue        1.6092     (Insuf)    .00000     6.0000     5.0000    
+Controller_Assemble.Queue.NumberInQueue     3.3506     (Insuf)    .00000     15.000     8.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Material.NumberIn                           140.00    
+Material.NumberOut                          54.000    
+Input_Machine1.NumberSeized                 141.00    
+Input_Machine1.ScheduledUtilization         .62946    
+Loader1.NumberSeized                        78.000    
+Loader1.ScheduledUtilization                .55583    
+Hole_Driller1.NumberSeized                  71.000    
+Hole_Driller1.ScheduledUtilization          .42262    
+Final_Inspector1.NumberSeized               50.000    
+Final_Inspector1.ScheduledUtilization       .22321    
+Finishing_Machine2_1.NumberSeized           104.00    
+Finishing_Machine2_1.ScheduledUtilization   .52390    
+Finishing_Machine1_1.NumberSeized           120.00    
+Finishing_Machine1_1.ScheduledUtilization   .60007    
+Tapper1.NumberSeized                        71.000    
+Tapper1.ScheduledUtilization                .21131    
+HousingCover_Assembler1.NumberSeized        56.000    
+HousingCover_Assembler1.ScheduledUtilizati  1.0000    
+Packaging_Machine1.NumberSeized             47.000    
+Packaging_Machine1.ScheduledUtilization     .48958    
+Grinding_Machine3.NumberSeized              44.000    
+Grinding_Machine3.ScheduledUtilization      .20440    
+Grinding_Machine2.NumberSeized              .00000    
+Grinding_Machine2.ScheduledUtilization      .00000    
+Grinding_Machine1.NumberSeized              89.000    
+Grinding_Machine1.ScheduledUtilization      .44856    
+Process_Inspector1.NumberSeized             97.000    
+Process_Inspector1.ScheduledUtilization     .76104    
+Controller_Assembler1.NumberSeized          63.000    
+Controller_Assembler1.ScheduledUtilization  .93750    
+Worker_Assemble.NumberSeized                358.00    
+Worker_Assemble.ScheduledUtilization        .27294    
+Worker_Process.NumberSeized                 673.00    
+Worker_Process.ScheduledUtilization         .41370    
+System.NumberOut                            54.000    
+
+Beginning replication 4 of 5
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 4 of 5
+
+Project: Unnamed Project                                             Run execution date :12/ 3/2025
+Analyst: Eunseo                                                      Model revision date:12/ 3/2025
+
+"Replication ended at time      : 10080.0 Minutes (Monday, December 22, 2025, 17:40:02)"
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Material.VATime                             201.40     (Insuf)    40.854     250.34         57    
+Material.NVATime                            75.803     (Insuf)    29.832     107.02         57    
+Material.WaitTime                           3843.7     (Insuf)    140.63     6018.1         57    
+Material.TranTime                           .00000     (Insuf)    .00000     .00000         57    
+Material.OtherTime                          .42982     (Insuf)    .00000     .50000         57    
+Material.TotalTime                          4121.3     (Insuf)    458.58     6311.9         57    
+Process_Inspection.Queue.WaitingTime        883.83     (Insuf)    37.925     2406.2         87    
+InnerHole_Drilling.Queue.WaitingTime        162.23     (Insuf)    .00000     895.73         63    
+Finishing2.Queue.WaitingTime                673.82     (Insuf)    11.028     1489.6        117    
+Finishing1.Queue.WaitingTime                417.48     (Insuf)    .00000     1111.4        116    
+Load.Queue.WaitingTime                      668.49     (Insuf)    .00000     1292.6         68    
+Packaging.Queue.WaitingTime                 11.018     (Insuf)    .00000     81.992         48    
+Machining_Input.Queue.WaitingTime           218.10     (Insuf)    .00000     483.62        141    
+HousingCover_Assemble.Queue.WaitingTime     593.80     (Insuf)    .00000     1360.0         55    
+Grinding.Queue.WaitingTime                  659.20     (Insuf)    .00000     1344.4        125    
+Tapping.Queue.WaitingTime                   135.54     (Insuf)    .00000     912.60         63    
+Final_Inspection.Queue.WaitingTime          216.45     (Insuf)    .00000     878.00         49    
+Controller_Assemble.Queue.WaitingTime       224.94     (Insuf)    .00000     1232.5         62    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Material.WIP                                50.144     (Insuf)    .00000     95.000     83.000    
+Input_Machine1.NumberBusy                   .20982     (Insuf)    .00000     1.0000     .00000    
+Input_Machine1.NumberScheduled              .33333     (Insuf)    .00000     1.0000     .00000    
+Input_Machine1.Utilization                  .20982     (Insuf)    .00000     1.0000     .00000    
+Loader1.NumberBusy                          .15475     (Insuf)    .00000     1.0000     .00000    
+Loader1.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     .00000    
+Loader1.Utilization                         .15475     (Insuf)    .00000     1.0000     .00000    
+Hole_Driller1.NumberBusy                    .12500     (Insuf)    .00000     1.0000     .00000    
+Hole_Driller1.NumberScheduled               .33333     (Insuf)    .00000     1.0000     .00000    
+Hole_Driller1.Utilization                   .12500     (Insuf)    .00000     1.0000     .00000    
+Final_Inspector1.NumberBusy                 .07292     (Insuf)    .00000     1.0000     .00000    
+Final_Inspector1.NumberScheduled            .33333     (Insuf)    .00000     1.0000     .00000    
+Final_Inspector1.Utilization                .07292     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine2_1.NumberBusy             .20470     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine2_1.NumberScheduled        .33333     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine2_1.Utilization            .20470     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine1_1.NumberBusy             .19312     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine1_1.NumberScheduled        .33333     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine1_1.Utilization            .19312     (Insuf)    .00000     1.0000     .00000    
+Tapper1.NumberBusy                          .06250     (Insuf)    .00000     1.0000     .00000    
+Tapper1.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     .00000    
+Tapper1.Utilization                         .06250     (Insuf)    .00000     1.0000     .00000    
+HousingCover_Assembler1.NumberBusy          .32520     (Insuf)    .00000     1.0000     1.0000    
+HousingCover_Assembler1.NumberScheduled     .33115     (Insuf)    .00000     1.0000     1.0000    
+HousingCover_Assembler1.Utilization         .32520     (Insuf)    .00000     1.0000     1.0000    
+Packaging_Machine1.NumberBusy               .16667     (Insuf)    .00000     1.0000     .00000    
+Packaging_Machine1.NumberScheduled          .33333     (Insuf)    .00000     1.0000     .00000    
+Packaging_Machine1.Utilization              .16667     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine3.NumberBusy                .07146     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine3.NumberScheduled           .33333     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine3.Utilization               .07146     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Grinding_Machine2.NumberScheduled           .00000     (Insuf)    .00000     .00000     .00000    
+Grinding_Machine2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Grinding_Machine1.NumberBusy                .13614     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine1.NumberScheduled           .33333     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine1.Utilization               .13614     (Insuf)    .00000     1.0000     .00000    
+Process_Inspector1.NumberBusy               .24654     (Insuf)    .00000     1.0000     .00000    
+Process_Inspector1.NumberScheduled          .33333     (Insuf)    .00000     1.0000     .00000    
+Process_Inspector1.Utilization              .24654     (Insuf)    .00000     1.0000     .00000    
+Controller_Assembler1.NumberBusy            .30754     (Insuf)    .00000     1.0000     .00000    
+Controller_Assembler1.NumberScheduled       .33333     (Insuf)    .00000     1.0000     .00000    
+Controller_Assembler1.Utilization           .30754     (Insuf)    .00000     1.0000     .00000    
+Worker_Assemble.NumberBusy                  1.0598     (Insuf)    .00000     4.0000     1.0000    
+Worker_Assemble.NumberScheduled             4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Worker_Assemble.Utilization                 .26496     (Insuf)    .00000     1.0000     .25000    
+Worker_Process.NumberBusy                   1.2165     (Insuf)    .00000     3.0000     .00000    
+Worker_Process.NumberScheduled              3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Worker_Process.Utilization                  .40551     (Insuf)    .00000     1.0000     .00000    
+Process_Inspection.Queue.NumberInQueue      9.7871     (Insuf)    .00000     31.000     30.000    
+InnerHole_Drilling.Queue.NumberInQueue      1.1236     (Insuf)    .00000     5.0000     5.0000    
+Finishing2.Queue.NumberInQueue              7.8212     (Insuf)    .00000     22.000     .00000    
+Finishing1.Queue.NumberInQueue              5.2605     (Insuf)    .00000     14.000     9.0000    
+Load.Queue.NumberInQueue                    4.8269     (Insuf)    .00000     13.000     9.0000    
+Packaging.Queue.NumberInQueue               .05247     (Insuf)    .00000     3.0000     .00000    
+Machining_Input.Queue.NumberInQueue         3.0509     (Insuf)    .00000     20.000     .00000    
+HousingCover_Assemble.Queue.NumberInQueue   3.3636     (Insuf)    .00000     7.0000     7.0000    
+Grinding.Queue.NumberInQueue                9.1736     (Insuf)    .00000     20.000     16.000    
+Tapping.Queue.NumberInQueue                 .84713     (Insuf)    .00000     3.0000     .00000    
+Final_Inspection.Queue.NumberInQueue        1.1365     (Insuf)    .00000     6.0000     5.0000    
+Controller_Assemble.Queue.NumberInQueue     1.4210     (Insuf)    .00000     7.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Material.NumberIn                           140.00    
+Material.NumberOut                          57.000    
+Input_Machine1.NumberSeized                 141.00    
+Input_Machine1.ScheduledUtilization         .62946    
+Loader1.NumberSeized                        68.000    
+Loader1.ScheduledUtilization                .46426    
+Hole_Driller1.NumberSeized                  63.000    
+Hole_Driller1.ScheduledUtilization          .37500    
+Final_Inspector1.NumberSeized               49.000    
+Final_Inspector1.ScheduledUtilization       .21875    
+Finishing_Machine2_1.NumberSeized           117.00    
+Finishing_Machine2_1.ScheduledUtilization   .61410    
+Finishing_Machine1_1.NumberSeized           116.00    
+Finishing_Machine1_1.ScheduledUtilization   .57936    
+Tapper1.NumberSeized                        63.000    
+Tapper1.ScheduledUtilization                .18750    
+HousingCover_Assembler1.NumberSeized        55.000    
+HousingCover_Assembler1.ScheduledUtilizati  .98203    
+Packaging_Machine1.NumberSeized             48.000    
+Packaging_Machine1.ScheduledUtilization     .50000    
+Grinding_Machine3.NumberSeized              43.000    
+Grinding_Machine3.ScheduledUtilization      .21438    
+Grinding_Machine2.NumberSeized              .00000    
+Grinding_Machine2.ScheduledUtilization      .00000    
+Grinding_Machine1.NumberSeized              82.000    
+Grinding_Machine1.ScheduledUtilization      .40842    
+Process_Inspector1.NumberSeized             87.000    
+Process_Inspector1.ScheduledUtilization     .73962    
+Controller_Assembler1.NumberSeized          62.000    
+Controller_Assembler1.ScheduledUtilization  .92262    
+Worker_Assemble.NumberSeized                340.00    
+Worker_Assemble.ScheduledUtilization        .26496    
+Worker_Process.NumberSeized                 654.00    
+Worker_Process.ScheduledUtilization         .40551    
+System.NumberOut                            57.000    
+
+Beginning replication 5 of 5
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 5 of 5
+
+Project: Unnamed Project                                             Run execution date :12/ 3/2025
+Analyst: Eunseo                                                      Model revision date:12/ 3/2025
+
+"Replication ended at time      : 10080.0 Minutes (Monday, December 22, 2025, 17:40:02)"
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Material.VATime                             197.79     (Insuf)    28.448     301.74         57    
+Material.NVATime                            74.623     (Insuf)    32.767     112.60         57    
+Material.WaitTime                           3422.3     (Insuf)    79.694     5749.7         57    
+Material.TranTime                           .00000     (Insuf)    .00000     .00000         57    
+Material.OtherTime                          .42105     (Insuf)    .00000     .50000         57    
+Material.TotalTime                          3695.2     (Insuf)    183.47     6075.0         57    
+Process_Inspection.Queue.WaitingTime        690.85     (Insuf)    23.958     1624.2         89    
+InnerHole_Drilling.Queue.WaitingTime        238.15     (Insuf)    .00000     926.99         70    
+Finishing2.Queue.WaitingTime                625.55     (Insuf)    1.9987     1144.6        109    
+Finishing1.Queue.WaitingTime                425.83     (Insuf)    .00000     1355.8        124    
+Load.Queue.WaitingTime                      521.39     (Insuf)    29.983     1253.9         74    
+Packaging.Queue.WaitingTime                 25.109     (Insuf)    .00000     160.00         44    
+Machining_Input.Queue.WaitingTime           278.03     (Insuf)    .00000     565.91        141    
+HousingCover_Assemble.Queue.WaitingTime     200.63     (Insuf)    .00000     926.10         56    
+Grinding.Queue.WaitingTime                  534.32     (Insuf)    .00000     1288.6        123    
+Tapping.Queue.WaitingTime                   41.610     (Insuf)    .00000     894.72         70    
+Final_Inspection.Queue.WaitingTime          351.11     (Insuf)    .00000     880.52         50    
+Controller_Assemble.Queue.WaitingTime       659.49     (Insuf)    .00000     1570.0         61    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Material.WIP                                47.877     (Insuf)    .00000     93.000     83.000    
+Input_Machine1.NumberBusy                   .20982     (Insuf)    .00000     1.0000     .00000    
+Input_Machine1.NumberScheduled              .33333     (Insuf)    .00000     1.0000     .00000    
+Input_Machine1.Utilization                  .20982     (Insuf)    .00000     1.0000     .00000    
+Loader1.NumberBusy                          .17988     (Insuf)    .00000     1.0000     .00000    
+Loader1.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     .00000    
+Loader1.Utilization                         .17988     (Insuf)    .00000     1.0000     .00000    
+Hole_Driller1.NumberBusy                    .13889     (Insuf)    .00000     1.0000     .00000    
+Hole_Driller1.NumberScheduled               .33333     (Insuf)    .00000     1.0000     .00000    
+Hole_Driller1.Utilization                   .13889     (Insuf)    .00000     1.0000     .00000    
+Final_Inspector1.NumberBusy                 .07440     (Insuf)    .00000     1.0000     .00000    
+Final_Inspector1.NumberScheduled            .33333     (Insuf)    .00000     1.0000     .00000    
+Final_Inspector1.Utilization                .07440     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine2_1.NumberBusy             .18276     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine2_1.NumberScheduled        .33333     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine2_1.Utilization            .18276     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine1_1.NumberBusy             .21425     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine1_1.NumberScheduled        .33333     (Insuf)    .00000     1.0000     .00000    
+Finishing_Machine1_1.Utilization            .21425     (Insuf)    .00000     1.0000     .00000    
+Tapper1.NumberBusy                          .06944     (Insuf)    .00000     1.0000     .00000    
+Tapper1.NumberScheduled                     .33333     (Insuf)    .00000     1.0000     .00000    
+Tapper1.Utilization                         .06944     (Insuf)    .00000     1.0000     .00000    
+HousingCover_Assembler1.NumberBusy          .32954     (Insuf)    .00000     1.0000     1.0000    
+HousingCover_Assembler1.NumberScheduled     .31764     (Insuf)    .00000     1.0000     1.0000    
+HousingCover_Assembler1.Utilization         .32954     (Insuf)    .00000     1.0000     1.0000    
+Packaging_Machine1.NumberBusy               .15278     (Insuf)    .00000     1.0000     .00000    
+Packaging_Machine1.NumberScheduled          .33333     (Insuf)    .00000     1.0000     .00000    
+Packaging_Machine1.Utilization              .15278     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine3.NumberBusy                .07817     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine3.NumberScheduled           .33333     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine3.Utilization               .07817     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine2.NumberBusy                .00000     (Insuf)    .00000     .00000     .00000    
+Grinding_Machine2.NumberScheduled           .00000     (Insuf)    .00000     .00000     .00000    
+Grinding_Machine2.Utilization               .00000     (Insuf)    .00000     .00000     .00000    
+Grinding_Machine1.NumberBusy                .12863     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine1.NumberScheduled           .33333     (Insuf)    .00000     1.0000     .00000    
+Grinding_Machine1.Utilization               .12863     (Insuf)    .00000     1.0000     .00000    
+Process_Inspector1.NumberBusy               .23946     (Insuf)    .00000     1.0000     .00000    
+Process_Inspector1.NumberScheduled          .33333     (Insuf)    .00000     1.0000     .00000    
+Process_Inspector1.Utilization              .23946     (Insuf)    .00000     1.0000     .00000    
+Controller_Assembler1.NumberBusy            .30258     (Insuf)    .00000     1.0000     .00000    
+Controller_Assembler1.NumberScheduled       .33333     (Insuf)    .00000     1.0000     .00000    
+Controller_Assembler1.Utilization           .30258     (Insuf)    .00000     1.0000     .00000    
+Worker_Assemble.NumberBusy                  1.0676     (Insuf)    .00000     4.0000     1.0000    
+Worker_Assemble.NumberScheduled             4.0000     (Insuf)    4.0000     4.0000     4.0000    
+Worker_Assemble.Utilization                 .26691     (Insuf)    .00000     1.0000     .25000    
+Worker_Process.NumberBusy                   1.2329     (Insuf)    .00000     3.0000     .00000    
+Worker_Process.NumberScheduled              3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Worker_Process.Utilization                  .41099     (Insuf)    .00000     1.0000     .00000    
+Process_Inspection.Queue.NumberInQueue      8.0186     (Insuf)    .00000     29.000     20.000    
+InnerHole_Drilling.Queue.NumberInQueue      1.7654     (Insuf)    .00000     7.0000     5.0000    
+Finishing2.Queue.NumberInQueue              7.3323     (Insuf)    .00000     17.000     15.000    
+Finishing1.Queue.NumberInQueue              5.2384     (Insuf)    .00000     24.000     .00000    
+Load.Queue.NumberInQueue                    3.9007     (Insuf)    .00000     8.0000     3.0000    
+Packaging.Queue.NumberInQueue               .10961     (Insuf)    .00000     3.0000     .00000    
+Machining_Input.Queue.NumberInQueue         3.9172     (Insuf)    .00000     20.000     1.0000    
+HousingCover_Assemble.Queue.NumberInQueue   1.2584     (Insuf)    .00000     8.0000     5.0000    
+Grinding.Queue.NumberInQueue                7.2990     (Insuf)    .00000     19.000     18.000    
+Tapping.Queue.NumberInQueue                 .28896     (Insuf)    .00000     2.0000     .00000    
+Final_Inspection.Queue.NumberInQueue        1.8298     (Insuf)    .00000     8.0000     5.0000    
+Controller_Assemble.Queue.NumberInQueue     4.6148     (Insuf)    .00000     16.000     10.000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Material.NumberIn                           140.00    
+Material.NumberOut                          57.000    
+Input_Machine1.NumberSeized                 141.00    
+Input_Machine1.ScheduledUtilization         .62946    
+Loader1.NumberSeized                        74.000    
+Loader1.ScheduledUtilization                .53964    
+Hole_Driller1.NumberSeized                  70.000    
+Hole_Driller1.ScheduledUtilization          .41667    
+Final_Inspector1.NumberSeized               50.000    
+Final_Inspector1.ScheduledUtilization       .22321    
+Finishing_Machine2_1.NumberSeized           109.00    
+Finishing_Machine2_1.ScheduledUtilization   .54829    
+Finishing_Machine1_1.NumberSeized           124.00    
+Finishing_Machine1_1.ScheduledUtilization   .64274    
+Tapper1.NumberSeized                        70.000    
+Tapper1.ScheduledUtilization                .20833    
+HousingCover_Assembler1.NumberSeized        56.000    
+HousingCover_Assembler1.ScheduledUtilizati  1.0374    
+Packaging_Machine1.NumberSeized             44.000    
+Packaging_Machine1.ScheduledUtilization     .45833    
+Grinding_Machine3.NumberSeized              46.000    
+Grinding_Machine3.ScheduledUtilization      .23450    
+Grinding_Machine2.NumberSeized              .00000    
+Grinding_Machine2.ScheduledUtilization      .00000    
+Grinding_Machine1.NumberSeized              77.000    
+Grinding_Machine1.ScheduledUtilization      .38590    
+Process_Inspector1.NumberSeized             89.000    
+Process_Inspector1.ScheduledUtilization     .71838    
+Controller_Assembler1.NumberSeized          61.000    
+Controller_Assembler1.ScheduledUtilization  .90774    
+Worker_Assemble.NumberSeized                351.00    
+Worker_Assemble.ScheduledUtilization        .26691    
+Worker_Process.NumberSeized                 660.00    
+Worker_Process.ScheduledUtilization         .41099    
+System.NumberOut                            57.000    
+
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Output Summary for 5 Replications
+
+Project: Unnamed Project                                             Run execution date :12/ 3/2025
+Analyst: Eunseo                                                      Model revision date:12/ 3/2025
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Material.NumberIn                           140.00     .00000     140.00     140.00     5
+Material.NumberOut                          55.000     2.6335     52.000     57.000     5
+Input_Machine1.NumberSeized                 140.40     1.1104     139.00     141.00     5
+Input_Machine1.ScheduledUtilization         .62679     .00496     .62054     .62946     5
+Loader1.NumberSeized                        71.800     5.1487     68.000     78.000     5
+Loader1.ScheduledUtilization                .51745     .05134     .46426     .55583     5
+Hole_Driller1.NumberSeized                  67.800     4.9190     63.000     71.000     5
+Hole_Driller1.ScheduledUtilization          .40357     .02928     .37500     .42262     5
+Final_Inspector1.NumberSeized               49.400     1.1104     48.000     50.000     5
+Final_Inspector1.ScheduledUtilization       .22054     .00496     .21429     .22321     5
+Finishing_Machine2_1.NumberSeized           110.20     7.5208     104.00     117.00     5
+Finishing_Machine2_1.ScheduledUtilization   .55536     .04963     .51612     .61410     5
+Finishing_Machine1_1.NumberSeized           119.00     6.9121     111.00     124.00     5
+Finishing_Machine1_1.ScheduledUtilization   .61081     .04763     .57287     .65902     5
+Tapper1.NumberSeized                        67.800     4.9190     63.000     71.000     5
+Tapper1.ScheduledUtilization                .20179     .01464     .18750     .21131     5
+HousingCover_Assembler1.NumberSeized        55.200     1.6186     53.000     56.000     5
+HousingCover_Assembler1.ScheduledUtilizati  1.0047     .05487     .94643     1.0576     5
+Packaging_Machine1.NumberSeized             46.200     2.5442     44.000     48.000     5
+Packaging_Machine1.ScheduledUtilization     .48125     .02650     .45833     .50000     5
+Grinding_Machine3.NumberSeized              46.400     4.3539     43.000     52.000     5
+Grinding_Machine3.ScheduledUtilization      .22521     .01919     .20440     .24226     5
+Grinding_Machine2.NumberSeized              .00000     .00000     .00000     .00000     5
+Grinding_Machine2.ScheduledUtilization      .00000     .00000     .00000     .00000     5
+Grinding_Machine1.NumberSeized              81.800     6.2936     77.000     89.000     5
+Grinding_Machine1.ScheduledUtilization      .40624     .03106     .38590     .44856     5
+Process_Inspector1.NumberSeized             89.200     7.3655     81.000     97.000     5
+Process_Inspector1.ScheduledUtilization     .74503     .02402     .71838     .76672     5
+Controller_Assembler1.NumberSeized          62.600     1.4154     61.000     64.000     5
+Controller_Assembler1.ScheduledUtilization  .93155     .02106     .90774     .95238     5
+Worker_Assemble.NumberSeized                349.00     8.2349     340.00     358.00     5
+Worker_Assemble.ScheduledUtilization        .26796     .00395     .26496     .27294     5
+Worker_Process.NumberSeized                 658.80     17.848     637.00     673.00     5
+Worker_Process.ScheduledUtilization         .40965     .00685     .40249     .41559     5
+System.NumberOut                            55.000     2.6335     52.000     57.000     5
+
+Simulation run time: 0.10 minutes.
+Simulation run complete.
